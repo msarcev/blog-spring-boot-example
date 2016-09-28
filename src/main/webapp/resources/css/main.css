@@ -1,0 +1,163 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	background-color:black;
+}
+footer{
+	margin-top:-30px;}
+
+/*FONT & NAVBAR*/
+
+.meta_font { 
+	font-family:"Meta";
+	font-size:12pt;
+	letter-spacing:1px;
+}
+li.nav_btn > a.btn_menu-webshop{
+	padding-right:0px;
+	margin-left:40px;
+	padding-left:10px;
+	padding-right:10px;
+	background-color:grey;}
+
+.navbar{
+	
+	height: 49px;
+}
+.navbar .nav > li > a:hover, .navbar .nav > li > a:hover:first-letter {                  
+	text-shadow: none;
+}
+.navbar .nav > li > a, .navbar .nav > li > a:hover:first-letter {                  
+	text-shadow: none;
+}
+.navbar a{
+	color:black !important;
+}
+.navbar a:hover{
+	color:#5c5d5f !important;
+}
+.navbar a.active_navBtn{
+	color: #5c5d5f !important;
+}
+.menu-logo{
+	width:80px;
+	height:25px;
+	margin-right:55px;
+	margin-top:13px;
+}
+
+.navbar.navbar-fixed-top{
+	min-width:100%;
+	position:fixed;
+	background-color:rgba(252,252,252,0.90);
+	filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+.nav.navbar-nav{
+	margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+	float:none;
+}
+ul li {
+	display:inline-block; 
+}
+
+/*END : FONT & NAVBAR*/
+
+
+.mainContainerHome{
+	width: 65%;
+	min-height: 100%;
+	margin: 50px auto;
+	background-color:yellow;
+}
+
+.posts-container{
+		background-color:white;
+		width: 90%;
+		margin:20px auto;
+		padding: 10px 5px;	
+}
+.posts-container ul{
+	background-color:green;
+	padding: 15px;
+}
+ul .ng-scope{	
+	display: list-item;
+	list-style-type: none;
+}
+.postContainer{
+	background-color:purple;
+	}
+#post_header_container{
+	 
+	
+}	
+#postTitleContainer{
+	background-color:blue;
+	display: block;
+	color:white;	
+	padding: 5px 10px;
+}
+#postBodyContainer{
+	background-color:red;
+	display: block;
+	color:white;	
+	padding: 5px 10px;
+}
+
+/*******login page*******/
+#mainWrapper {
+	/*height: 720px; Without explicit px values, % in children's does not work*/
+	height: 100vh; /*with Viewport-Percentage, we can handles all devices screens  */
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+}
+.login-container {
+    margin-top: 100px;
+    background-color: floralwhite;
+    width: 40%;
+    left: 30%;
+    position: absolute;
+}
+
+.login-card {
+    width: 80%;
+    margin: auto;
+}
+.login-form {
+    padding: 10%;
+}
+/*******login page*******/
+/*****************************************************MEDIA****************************************************************************/
+ /* Large desktop - >1350*/
+@media (min-width: 1350px) { 
+
+} 	
+/* Medium Desktop - 980	-------	1349*/
+@media (min-width: 980px) and (max-width: 1349px) { 	
+
+}
+	/* Custom 980px ------- 1200px */
+@media (min-width: 980px) and (max-width: 1200px) { 
+
+}	
+/* Portrait tablet to landscape and desktop */
+/*  768px ------- 979px */
+@media (min-width: 768px) and (max-width: 979px) { 
+
+	
+}
+/* Landscape phone to portrait tablet */
+/* Small Screen <768*/
+@media (max-width: 767px) { 
+
+}
+/* Landscape phones and down */
+/* Xtra Small <480*/
+@media (max-width: 480px) { 
+
+}
+
+ /*END:MEDIA*/
